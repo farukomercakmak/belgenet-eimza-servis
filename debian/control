@@ -1,0 +1,12 @@
+Source: belgenet-eimza-servis
+Section: utils 
+Priority: optional 
+Build-Depends: debhelper (>= 9) 
+Maintainer: Ömer ÇAKMAK <farukomercakmak@gmail.com.tr> 
+
+Package: belgenet-eimza-servis
+Section: utils 
+Priority: optional 
+Architecture: all 
+Description: E-Imza Service Package
+	E-Imza Servis Paketi(Belgenet)

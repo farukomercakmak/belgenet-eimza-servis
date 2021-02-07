@@ -1,0 +1,18 @@
+[Unit]
+Description=TurksatImza Service
+[Service]
+
+# The configuration file application.properties should be here:
+#change this to your workspace
+WorkingDirectory=/usr/share/signNativeOsService/
+
+#path to executable. 
+#executable is a bash script which calls jar file
+ExecStart=/usr/share/signNativeOsService/bin/systemctl/start.sh
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

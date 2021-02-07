@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo systemctl stop turksat-imza
+sudo systemctl disable turksat-imza.service
+sudo systemctl daemon-reload

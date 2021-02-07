@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cp /usr/share/signNativeOsService/turksat.crt /usr/local/share/ca-certificates/
+sudo chmod +x /usr/share/signNativeOsService/bin/systemctl/start.sh
+
+sudo systemctl daemon-reload
+sudo systemctl enable turksat-imza.service
+sudo systemctl start turksat-imza
