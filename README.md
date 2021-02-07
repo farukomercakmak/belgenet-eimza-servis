@@ -1,7 +1,6 @@
 Bu paket http://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Linux/ adresinde signNativeOsService_Linux_1.0.44.zip  olarak verilen dosyayı debian paketi haline getirmektedir. Bu zip dosyası açıldıktan sonra;
 
 * singNativeOsService.jar
-* start.sh
 * turksat-imza.service
 * turksat.crt
 
