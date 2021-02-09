@@ -4,7 +4,7 @@ Bu paket http://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/
 * turksat-imza.service
 * turksat.crt
 
-dosyaları kalacak şekilde diğer dosya ve dizinler(diğer işletim sistemlerine ait olduğu için) silinmelidir. Ayrıca **turksat-imza.service** ve **start.sh** dosyalarındaki yollar "**/usr/local**"'den "**/usr/share**"'e alınmalıdır.
+dosyaları kalacak şekilde diğer dosya ve dizinler(diğer işletim sistemlerine ait olduğu için) silinmelidir. Ayrıca **turksat-imza.service** dosyasındaki yollar "**/usr/local**"'den "**/usr/share**"'e alınmalıdır.
 
 **Paketleme**
 
