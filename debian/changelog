@@ -1,6 +1,13 @@
+belgenet-eimza-servis (1.1) unstable; urgency=medium
+
+  [ Ömer ÇAKMAK ]
+  * start.sh kaldırılarak turksat-imza.service dosyası düzenlendi
+
+ -- Ömer ÇAKMAK <farukomercakmak@gmail.com.tr>  Sun, 07 Feb 2021 15:10:09 +0300
+
 belgenet-eimza-servis (1.0) unstable; urgency=medium
 
   [ Ömer ÇAKMAK ]
   * Initial release. 
-
+ 
  -- Ömer ÇAKMAK <farukomercakmak@gmail.com.tr>  Sun, 07 Feb 2021 13:04:47 +0300

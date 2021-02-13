@@ -6,9 +6,7 @@ Description=TurksatImza Service
 #change this to your workspace
 WorkingDirectory=/usr/share/signNativeOsService/
 
-#path to executable. 
-#executable is a bash script which calls jar file
-ExecStart=/usr/share/signNativeOsService/bin/systemctl/start.sh
+ExecStart=/usr/bin/java -jar /usr/share/signNativeOsService/signNativeOsService.jar
 SuccessExitStatus=143
 TimeoutStopSec=10
 Restart=on-failure
